@@ -1,15 +1,10 @@
-Project: heatrates
+Python Interface for Single-Column Radiative Heating Rate Calculations using climlab's RRTM engine.
 
-This repository contains notebooks and data for the heatrates analysis.
+Options to perturb humidity and gas profiles and to add liquid and ice clouds with specified microphysical properties. 
+
+This repository contains an example notebook and data for the reference tropical profile.
 
 Files included:
-- `heatrates.ipynb` (existing notebook)
+- `heatrates.ipynb` (notebook with Python wrapper and examples)
 - `tropical_profile.nc` (existing data file)
-- `environment.yml` (Conda environment to install climlab)
-
-To create the environment:
-
-```bash
-conda env create -f environment.yml
-conda activate climlab
-```
+- `environment.yml` (Conda environment to install climlab and other necessary packages)
